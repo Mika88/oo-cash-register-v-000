@@ -7,6 +7,6 @@ class CashRegister
      20
   end
   def total
-    self.@total
+    @total
   end
 end
