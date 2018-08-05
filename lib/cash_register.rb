@@ -11,4 +11,3 @@ class CashRegister
     new_total
   end
 end
-
