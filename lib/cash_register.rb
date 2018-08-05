@@ -9,5 +9,5 @@ class CashRegister
     new_price = price * quantity
     self.total += new_price
   end
-  
+
 end
