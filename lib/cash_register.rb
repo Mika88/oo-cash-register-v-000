@@ -6,4 +6,9 @@ class CashRegister
   def discount
      20
   end
+  def add_item(title, price)
+    new_total = total + price
+    new_total
+  end
 end
+
