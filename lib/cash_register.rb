@@ -15,4 +15,3 @@ class CashRegister
   self.total - (self.total / 100 * discount)
   end
 end
-
