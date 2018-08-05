@@ -1,3 +1,4 @@
+require 'pry'
 class CashRegister
   attr_accessor :total
   def initialize(total = 0)
@@ -11,6 +12,6 @@ class CashRegister
     self.total += new_price
   end
   def apply_discount
-  self.total / (100 * 20)
+  self.total - (self.total / (100 * 20))
   end
 end
